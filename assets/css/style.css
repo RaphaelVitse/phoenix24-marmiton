@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  font-size: 16px;
+  background: #efefef;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+/* PARTIE HEADER */
+
+header {
+  background: white;
+  border-bottom: 1px solid #f3735f;
+  padding: 15px 0px;
+}
+
+/* PARTIE MAIN */
+h1 {
+  font-size: 50px;
+  color: #393c6c;
+  text-align: center;
+  font-weight: bold;
+}
+
+section {
+  background: white;
+  padding: 60px 30px;
+  border-radius: 20px;
+  margin-top: 80px;
+}
+
+.cooking-info {
+  font-size: 12px;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.cooking-time {
+  text-align: center;
+  background: #8b98b1;
+  width: 350px;
+  margin: 10px auto;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: #efefef;
+  font-weight: bold;
+}
+
+/* LES IMAGES */
+.images-crepe {
+  display: flex;
+  justify-content: space-between;
+  /* background: lightseagreen; */
+  margin: 60px auto;
+}
+.images-crepe img {
+  width: 280px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.images-crepe img:nth-child(2) {
+  object-fit: cover;
+  object-position: 50% 60%;
+}
+
+/* LES INGEDIENTS ET PREPARATION */
+
+h2 {
+  font-size: 30px;
+  color: #f3735f;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+ul li {
+  font-weight: 300;
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  color: #393c6c;
+  line-height: 22px;
+  font-weight: bold;
+}
+p {
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+/* PARTIE FOOTER */
+footer {
+  margin: 60px auto;
+  text-align: center;
+}
